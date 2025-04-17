@@ -1,7 +1,6 @@
 
 function createBoard(num){
     board=document.createElement("div");
-    // board.style.display="flex";
     for (let i=0; i<num;i++){
         const row=document.createElement("div");
         row.style.display="flex";
@@ -26,8 +25,6 @@ function createBoard(num){
 
 
 const container=document.querySelector(".container");
-// container.style.display="flex";
-// container.style.justifyContent="space-around";
 
 const GRID_NUM=16;
 const SIZE=800;
